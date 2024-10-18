@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@headlessui/react':
         specifier: ^1.7.13
-        version: 1.7.13(react-dom@18.2.0)(react@18.2.0)
+        version: 1.7.13(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       '@heroicons/react':
         specifier: ^1.0.6
         version: 1.0.6(react@18.2.0)
@@ -19,28 +19,28 @@ importers:
         version: 3.21.0(seedrandom@3.0.5)
       '@vercel/examples-ui':
         specifier: ^1.0.5
-        version: 1.0.5(next@13.2.4)(react-dom@18.2.0)(react@18.2.0)
+        version: 1.0.5(next@13.2.4(@babel/core@7.21.4)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       '@walletconnect/web3-provider':
         specifier: ^1.8.0
-        version: 1.8.0(@babel/core@7.21.4)
+        version: 1.8.0(@babel/core@7.21.4)(bufferutil@4.0.7)(utf-8-validate@5.0.10)
       '@web3auth/web3auth':
         specifier: ^2.1.3
-        version: 2.1.3(@babel/runtime@7.21.0)
+        version: 2.1.3(@babel/runtime@7.21.0)(bufferutil@4.0.7)(utf-8-validate@5.0.10)
       ethers:
         specifier: ^5.7.2
-        version: 5.7.2
+        version: 5.7.2(bufferutil@4.0.7)(utf-8-validate@5.0.10)
       magic-sdk:
         specifier: ^13.6.0
         version: 13.6.0
       moralis-v1:
         specifier: ^1.12.0
-        version: 1.12.0
+        version: 1.12.0(bufferutil@4.0.7)(utf-8-validate@5.0.10)
       next:
         specifier: ^13.2.4
-        version: 13.2.4(@babel/core@7.21.4)(react-dom@18.2.0)(react@18.2.0)
+        version: 13.2.4(@babel/core@7.21.4)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       nsfwjs:
         specifier: ^2.4.2
-        version: 2.4.2(@tensorflow/tfjs@3.21.0)
+        version: 2.4.2(@tensorflow/tfjs@3.21.0(seedrandom@3.0.5))
       pica:
         specifier: ^9.0.1
         version: 9.0.1
@@ -58,7 +58,7 @@ importers:
         version: 1.5.4(react@18.2.0)
       react-moralis:
         specifier: ^1.4.2
-        version: 1.4.2(moralis-v1@1.12.0)(react-dom@18.2.0)(react@18.2.0)
+        version: 1.4.2(moralis-v1@1.12.0(bufferutil@4.0.7)(utf-8-validate@5.0.10))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
     devDependencies:
       '@types/node':
         specifier: 17.0.14
@@ -459,6 +459,7 @@ packages:
   '@humanwhocodes/config-array@0.11.8':
     resolution: {integrity: sha512-UybHIJzJnR5Qc/MsD9Kr+RpO2h+/P1GhOwdiLPXK5TWk5sgTdu88bTD9UP+CKbPPh5Rni1u0GjAdYQLemG8g+g==}
     engines: {node: '>=10.10.0'}
+    deprecated: Use @eslint/config-array instead
 
   '@humanwhocodes/module-importer@1.0.1':
     resolution: {integrity: sha512-bxveV4V8v5Yb4ncFTT3rPSgZBOpCkjfK0y4oVVVJwIuDVBRMDXrPyXRL988i5ap9m9bnyEEjWfm5WkBmtffLfA==}
@@ -466,6 +467,7 @@ packages:
 
   '@humanwhocodes/object-schema@1.2.1':
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
+    deprecated: Use @eslint/object-schema instead
 
   '@jridgewell/gen-mapping@0.3.3':
     resolution: {integrity: sha512-HLhSWOLRi875zjjMG/r+Nv0oCW8umGb0BgEhyX3dDX3egwZtB8PqLnjz3yedt8R5StBrzcg4aBpnh8UA9D1BoQ==}
@@ -726,26 +728,31 @@ packages:
 
   '@toruslabs/openlogin-jrpc@2.13.0':
     resolution: {integrity: sha512-TEg50/84xSocHLb3MEtw0DaIa+bXU66TJJjjDrqGPjoRo97fn8F8jDW2AcVV+eug39xpfxPIw1FFdCtgunmz7w==}
+    deprecated: Not supported. Pls upgrade
     peerDependencies:
       '@babel/runtime': 7.x
 
   '@toruslabs/openlogin-jrpc@3.2.0':
     resolution: {integrity: sha512-G+K0EHyVUaAEyeD4xGsnAZRpn/ner8lQ2HC2+pGKg6oGmzKI2wGMDcw2KMH6+HKlfBGVJ5/VR9AQfC/tZlLDmQ==}
+    deprecated: Not supported. Pls upgrade
     peerDependencies:
       '@babel/runtime': 7.x
 
   '@toruslabs/openlogin-utils@2.13.0':
     resolution: {integrity: sha512-g4pj6hIdKcuyetVsUWqiAJmCooTS9hOADL31m7LTqgdXzX9oR437A+c8Dw8gzFVcHmkK16Yt2//GvlKnSsGILg==}
+    deprecated: Not supported. Pls upgrade
     peerDependencies:
       '@babel/runtime': 7.x
 
   '@toruslabs/openlogin-utils@3.0.0':
     resolution: {integrity: sha512-T5t29/AIFqXc84x4OoAkZWjd0uoP2Lk6iaFndnIIMzCPu+BwwV0spX/jd/3YYNjZ8Po8D+faEnwAhiqemYeK2w==}
+    deprecated: Not supported. Pls upgrade
     peerDependencies:
       '@babel/runtime': 7.x
 
   '@toruslabs/openlogin@2.13.0':
     resolution: {integrity: sha512-tB9v7hYr+W2PnbQk7NQqzDN48VzbLcwlL8ZsMBE/HTO2sTVfFisq+Phj33kIro9FwLoZHzhvg45QbROEZTVtFw==}
+    deprecated: Not supported. Pls upgrade
     peerDependencies:
       '@babel/runtime': 7.x
 
@@ -758,6 +765,7 @@ packages:
   '@toruslabs/torus-embed@1.41.0':
     resolution: {integrity: sha512-UKYaf01C/wioaXzGfHD8fNfyAvZjrIwuJwtjwmv+sEgbaZZSb+1wtyhmPVQ/r9gVQHWMTQyohoCMov4ifvdTiQ==}
     engines: {node: '>=14.17.0', npm: '>=6.x'}
+    deprecated: Not supported. Pls upgrade
     peerDependencies:
       '@babel/runtime': 7.x
 
@@ -923,74 +931,89 @@ packages:
 
   '@web3auth/base-evm-adapter@2.1.3':
     resolution: {integrity: sha512-+W5qzGphp6akjPdHhgVTc9y6nvcsJKT+xZFC6tIuzB/MF6GOWC5ixgWDgq/qZhiEOIx/dyllKdQSSX7saP+PdQ==}
+    deprecated: Not supported. Pls upgrade
     peerDependencies:
       '@babel/runtime': ^7.x
 
   '@web3auth/base-plugin@2.1.3':
     resolution: {integrity: sha512-RxenKk+27PK3gPQmnLKv6XfGvkgPq5D5ol2q+UfuipxF9bMiMO/9/DirsXhtvgkre6O5ksSUvmW/x/N+N4dK8A==}
+    deprecated: Not supported. Pls upgrade
 
   '@web3auth/base-provider@2.1.3':
     resolution: {integrity: sha512-lfbB7eKciQG/EvrP4GOtqmfVISNit4IeADpBSZN3kXN/CgkyfrB0RyuoV6B+/JnWiqxdK0AvdX1ccDLuCZRbNw==}
+    deprecated: Not supported. Pls upgrade
     peerDependencies:
       '@babel/runtime': 7.x
 
   '@web3auth/base-solana-adapter@2.1.3':
     resolution: {integrity: sha512-N7eF7hwZ3AGEG0sIzpNFy91p7WBOiLzJSRKMkMJyIezJlgCCsb10D8PL/rr4wgs5PLKlv1srXMm/bLbvcINNZQ==}
+    deprecated: Not supported. Pls upgrade
     peerDependencies:
       '@babel/runtime': ^7.x
 
   '@web3auth/base@2.1.3':
     resolution: {integrity: sha512-4/ECf/BCLLp+pBLtDcYV0ImyKtjzZK0IOad7Wgs4UQedy1Lxdv8N9FxJULvQ8xXsl5wCxIE/kxJtP2HbEvWf9g==}
+    deprecated: Not supported. Pls upgrade
     peerDependencies:
       '@babel/runtime': ^7.x
 
   '@web3auth/core@2.1.3':
     resolution: {integrity: sha512-H2lpOSGGecgaKiFddNmMNknqUulijJM9Phq1AN+K0bF2UH0kfcawTyxzNwtoy48QXqOT3PMDFLsF54MOfLK2AA==}
+    deprecated: Package has been renamed to @web3auth/no-modal
     peerDependencies:
       '@babel/runtime': ^7.x
 
   '@web3auth/ethereum-provider@2.1.3':
     resolution: {integrity: sha512-mB1knLMwCRbyBlQC2r+jY8GjUAHpJr3rHjLNraL051CFAKAmnj8QTKzaA206iGcZTSZ0dgLG7K/2+7hWSON6Vw==}
+    deprecated: Not supported. Pls upgrade
     peerDependencies:
       '@babel/runtime': 7.x
 
   '@web3auth/metamask-adapter@2.1.3':
     resolution: {integrity: sha512-Sy8pQDkHzHvdCJyTkee5ujCMvU8bHjG7AheFgLeqAB2fB2G01mvpOc38ARjOrXGnIsRSebNuadiI3kcT3Xl4JQ==}
+    deprecated: Not supported. Pls upgrade
     peerDependencies:
       '@babel/runtime': ^7.x
 
   '@web3auth/openlogin-adapter@2.1.3':
     resolution: {integrity: sha512-c7bVecadoKpsGfBBvxtAC1bI9RER9HCgl7MgC+MMrZEg2luPN1ks1equG8CDl4VoBTS14aOOiGCfbjFXM1qW7g==}
+    deprecated: Not supported. Pls upgrade
     peerDependencies:
       '@babel/runtime': ^7.x
 
   '@web3auth/phantom-adapter@2.1.3':
     resolution: {integrity: sha512-9l9KFdonXCIoaYsDB1etMxe+2oyKucnDyotksgJDHIrONMzABxJS1FMZrwpOGUZUXbWY+e6VQFCbmttzch1uLA==}
+    deprecated: Not supported. Pls upgrade
     peerDependencies:
       '@babel/runtime': ^7.x
 
   '@web3auth/solana-provider@2.1.3':
     resolution: {integrity: sha512-6PKAssgEZVdWzLr1IXGOyCKpGAkvNhI4KF0T0rGX4mDNqBEwlK7ynFHWyz/NdKG/ZAQ1nL1IwsPCs0ZMPKz7ng==}
+    deprecated: Not supported. Pls upgrade
     peerDependencies:
       '@babel/runtime': ^7.x
 
   '@web3auth/torus-evm-adapter@2.1.3':
     resolution: {integrity: sha512-pK+kwF+mBiaL8qKhk95DgOwwBFcjmtyH88e0zfHqcZEew40vk7V+JU3t/sA3ns9I1EHXzlbbC4DuWl7O8Cn4Mw==}
+    deprecated: Not supported. Pls upgrade
     peerDependencies:
       '@babel/runtime': ^7.x
 
   '@web3auth/torus-solana-adapter@2.1.3':
     resolution: {integrity: sha512-inm7w9h1GrANTQCxPF2cuO+MU6b6xnSmSqx0OlRL65zYaJtR8UwmD3fRjW0rKgUQl/mz1GHoyqIhxMmg6+DV/w==}
+    deprecated: Not supported. Pls upgrade
     peerDependencies:
       '@babel/runtime': ^7.x
 
   '@web3auth/ui@2.1.3':
     resolution: {integrity: sha512-k0aN7IiL5eHU7YpRFxn4FKW3cI0bLq2y+I3cN8xBujWevaAhhRswKrObBe+OTjFCniSw7qYgTZTwpEm/AS+8NA==}
+    deprecated: Not supported. Pls upgrade
     peerDependencies:
       '@babel/runtime': ^7.x
 
   '@web3auth/wallet-connect-v1-adapter@2.1.3':
     resolution: {integrity: sha512-uFfHvbHAhmBS6mBCT0uncPaLD3GDc0ofVHhUHN5PkviSXZh5JbM9AyaQYJcW1/pPx0OID9ykmAueFlEOQnCRrA==}
+    deprecated: wc v1 is deprecated. pls use wc v2
     peerDependencies:
       '@babel/runtime': ^7.x
 
@@ -1249,8 +1272,8 @@ packages:
   brace-expansion@1.1.11:
     resolution: {integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==}
 
-  braces@3.0.2:
-    resolution: {integrity: sha512-b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==}
+  braces@3.0.3:
+    resolution: {integrity: sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==}
     engines: {node: '>=8'}
 
   brorand@1.1.0:
@@ -1725,6 +1748,7 @@ packages:
   eslint@8.36.0:
     resolution: {integrity: sha512-Y956lmS7vDqomxlaaQAHVmeb4tNMp2FWIvU/RnU5BD3IKMD/MJPr76xdyr68P8tV1iNMvN2mRK0yy3c+UjL+bw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
 
   espree@9.5.0:
@@ -1755,6 +1779,7 @@ packages:
 
   eth-json-rpc-infura@5.1.0:
     resolution: {integrity: sha512-THzLye3PHUSGn1EXMhg6WTLW9uim7LQZKeKaeYsS9+wOBcamRiCQVGHa6D2/4P0oS0vSaxsBnU/J6qvn0MPdow==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   eth-json-rpc-middleware@6.0.0:
     resolution: {integrity: sha512-qqBfLU2Uq1Ou15Wox1s+NX05S9OcAEL4JZ04VZox2NS0U+RtCMjSxzXhLFWekdShUPZ+P8ax3zCO2xcPrp6XJQ==}
@@ -1793,9 +1818,8 @@ packages:
   ethereumjs-abi@0.6.8:
     resolution: {integrity: sha512-Tx0r/iXI6r+lRsdvkFDlut0N08jWMnKRZ6Gkq+Nmw75lZe4e6o3EkSnkaBP5NF6+m5PTGAr9JP43N3LyeoglsA==}
 
-  ethereumjs-abi@https://codeload.github.com/ethereumjs/ethereumjs-abi/tar.gz/ee3994657fa7a427238e6ba92a84d0b529bbcde0:
-    resolution: {tarball: https://codeload.github.com/ethereumjs/ethereumjs-abi/tar.gz/ee3994657fa7a427238e6ba92a84d0b529bbcde0}
-    name: ethereumjs-abi
+  ethereumjs-abi@git+https://git@github.com:ethereumjs/ethereumjs-abi.git#ee3994657fa7a427238e6ba92a84d0b529bbcde0:
+    resolution: {commit: ee3994657fa7a427238e6ba92a84d0b529bbcde0, repo: git@github.com:ethereumjs/ethereumjs-abi.git, type: git}
     version: 0.6.8
 
   ethereumjs-account@2.0.5:
@@ -1912,8 +1936,8 @@ packages:
   file-uri-to-path@1.0.0:
     resolution: {integrity: sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==}
 
-  fill-range@7.0.1:
-    resolution: {integrity: sha512-qOo9F+dMUmC2Lcb4BbVvnKJxTPjCm+RRpe4gDuGrzkL7mEVl/djYSu2OdQ2Pa302N4oqkSg9ir6jaLWJ2USVpQ==}
+  fill-range@7.1.1:
+    resolution: {integrity: sha512-YsGpe3WHLK8ZYi4tWDg2Jy3ebRz2rXowDxnld4bkQB00cc/1Zw9AWnC0i9ztDJitivtQvaI9KaLyKrc+hBW0yg==}
     engines: {node: '>=8'}
 
   find-up@3.0.0:
@@ -2013,9 +2037,11 @@ packages:
 
   glob@7.1.7:
     resolution: {integrity: sha512-OvD9ENzPLbegENnYP5UUfJIirTg4+XwMWGaQfQTY0JenxNvvIKP3U3/tAQSPIu/lHxXYSZmpXlUHeqAIdKzBLQ==}
+    deprecated: Glob versions prior to v9 are no longer supported
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
+    deprecated: Glob versions prior to v9 are no longer supported
 
   global@4.4.0:
     resolution: {integrity: sha512-wv/LAoHdRE3BeTGz53FAamhGlPLhlssK45usmGFThIi4XqnBmjKQ16u+RNbP7WvigRZDxUsM0J3gcQ5yicaL0w==}
@@ -2130,6 +2156,7 @@ packages:
 
   inflight@1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
+    deprecated: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
 
   inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
@@ -2977,6 +3004,7 @@ packages:
 
   rimraf@3.0.2:
     resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
 
   ripemd160@2.0.2:
@@ -3414,6 +3442,7 @@ packages:
 
   web3-provider-engine@16.0.1:
     resolution: {integrity: sha512-/Eglt2aocXMBiDj7Se/lyZnNDaHBaoJlaUfbP5HkLJQC/HlGbR+3/W+dINirlJDhh7b54DzgykqY7ksaU5QgTg==}
+    deprecated: 'This package has been deprecated, see the README for details: https://github.com/MetaMask/web3-provider-engine'
 
   web3-providers-http@1.5.2:
     resolution: {integrity: sha512-dUNFJc9IMYDLZnkoQX3H4ZjvHjGO6VRVCqrBrdh84wPX/0da9dOA7DwIWnG0Gv3n9ybWwu5JHQxK4MNQ444lyA==}
@@ -4136,7 +4165,7 @@ snapshots:
     dependencies:
       '@ethersproject/logger': 5.7.0
 
-  '@ethersproject/providers@5.6.0':
+  '@ethersproject/providers@5.6.0(bufferutil@4.0.7)(utf-8-validate@5.0.10)':
     dependencies:
       '@ethersproject/abstract-provider': 5.6.0
       '@ethersproject/abstract-signer': 5.6.0
@@ -4156,12 +4185,12 @@ snapshots:
       '@ethersproject/transactions': 5.6.0
       '@ethersproject/web': 5.6.0
       bech32: 1.1.4
-      ws: 7.4.6
+      ws: 7.4.6(bufferutil@4.0.7)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
 
-  '@ethersproject/providers@5.7.2':
+  '@ethersproject/providers@5.7.2(bufferutil@4.0.7)(utf-8-validate@5.0.10)':
     dependencies:
       '@ethersproject/abstract-provider': 5.7.0
       '@ethersproject/abstract-signer': 5.7.0
@@ -4182,7 +4211,7 @@ snapshots:
       '@ethersproject/transactions': 5.7.0
       '@ethersproject/web': 5.7.1
       bech32: 1.1.4
-      ws: 7.4.6
+      ws: 7.4.6(bufferutil@4.0.7)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -4371,7 +4400,7 @@ snapshots:
       '@ethersproject/properties': 5.7.0
       '@ethersproject/strings': 5.7.0
 
-  '@headlessui/react@1.7.13(react-dom@18.2.0)(react@18.2.0)':
+  '@headlessui/react@1.7.13(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
       client-only: 0.0.1
       react: 18.2.0
@@ -4412,7 +4441,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
 
-  '@magic-sdk/commons@9.6.0(@magic-sdk/provider@13.6.0)(@magic-sdk/types@11.6.0)':
+  '@magic-sdk/commons@9.6.0(@magic-sdk/provider@13.6.0(localforage@1.10.0))(@magic-sdk/types@11.6.0)':
     dependencies:
       '@magic-sdk/provider': 13.6.0(localforage@1.10.0)
       '@magic-sdk/types': 11.6.0
@@ -4543,7 +4572,7 @@ snapshots:
     dependencies:
       buffer: 6.0.3
 
-  '@solana/web3.js@1.73.3':
+  '@solana/web3.js@1.73.3(bufferutil@4.0.7)(utf-8-validate@5.0.10)':
     dependencies:
       '@babel/runtime': 7.21.0
       '@noble/ed25519': 1.7.3
@@ -4557,7 +4586,7 @@ snapshots:
       bs58: 4.0.1
       buffer: 6.0.1
       fast-stable-stringify: 1.0.0
-      jayson: 3.7.0
+      jayson: 3.7.0(bufferutil@4.0.7)(utf-8-validate@5.0.10)
       node-fetch: 2.6.9
       rpc-websockets: 7.5.1
       superstruct: 0.14.2
@@ -4635,11 +4664,11 @@ snapshots:
       - encoding
       - seedrandom
 
-  '@toruslabs/base-controllers@2.8.0(@babel/runtime@7.21.0)':
+  '@toruslabs/base-controllers@2.8.0(@babel/runtime@7.21.0)(bufferutil@4.0.7)(utf-8-validate@5.0.10)':
     dependencies:
       '@babel/runtime': 7.21.0
       '@ethereumjs/util': 8.0.5
-      '@toruslabs/broadcast-channel': 6.2.0
+      '@toruslabs/broadcast-channel': 6.2.0(bufferutil@4.0.7)(utf-8-validate@5.0.10)
       '@toruslabs/http-helpers': 3.3.0(@babel/runtime@7.21.0)
       '@toruslabs/openlogin-jrpc': 3.2.0(@babel/runtime@7.21.0)
       async-mutex: 0.4.0
@@ -4655,7 +4684,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@toruslabs/broadcast-channel@6.2.0':
+  '@toruslabs/broadcast-channel@6.2.0(bufferutil@4.0.7)(utf-8-validate@5.0.10)':
     dependencies:
       '@babel/runtime': 7.21.0
       '@toruslabs/eccrypto': 2.0.0
@@ -4664,7 +4693,7 @@ snapshots:
       keccak: 3.0.3
       loglevel: 1.8.1
       oblivious-set: 1.1.1
-      socket.io-client: 4.6.1
+      socket.io-client: 4.6.1(bufferutil@4.0.7)(utf-8-validate@5.0.10)
       unload: 2.4.1
     transitivePeerDependencies:
       - '@sentry/types'
@@ -4758,11 +4787,11 @@ snapshots:
     transitivePeerDependencies:
       - '@sentry/types'
 
-  '@toruslabs/solana-embed@0.3.4(@babel/runtime@7.21.0)':
+  '@toruslabs/solana-embed@0.3.4(@babel/runtime@7.21.0)(bufferutil@4.0.7)(utf-8-validate@5.0.10)':
     dependencies:
       '@babel/runtime': 7.21.0
-      '@solana/web3.js': 1.73.3
-      '@toruslabs/base-controllers': 2.8.0(@babel/runtime@7.21.0)
+      '@solana/web3.js': 1.73.3(bufferutil@4.0.7)(utf-8-validate@5.0.10)
+      '@toruslabs/base-controllers': 2.8.0(@babel/runtime@7.21.0)(bufferutil@4.0.7)(utf-8-validate@5.0.10)
       '@toruslabs/http-helpers': 3.3.0(@babel/runtime@7.21.0)
       '@toruslabs/openlogin-jrpc': 3.2.0(@babel/runtime@7.21.0)
       eth-rpc-errors: 4.0.3
@@ -4861,6 +4890,7 @@ snapshots:
       '@typescript-eslint/typescript-estree': 5.55.0(typescript@4.5.5)
       debug: 4.3.4
       eslint: 8.36.0
+    optionalDependencies:
       typescript: 4.5.5
     transitivePeerDependencies:
       - supports-color
@@ -4881,6 +4911,7 @@ snapshots:
       is-glob: 4.0.3
       semver: 7.3.8
       tsutils: 3.21.0(typescript@4.5.5)
+    optionalDependencies:
       typescript: 4.5.5
     transitivePeerDependencies:
       - supports-color
@@ -4890,11 +4921,11 @@ snapshots:
       '@typescript-eslint/types': 5.55.0
       eslint-visitor-keys: 3.3.0
 
-  '@vercel/examples-ui@1.0.5(next@13.2.4)(react-dom@18.2.0)(react@18.2.0)':
+  '@vercel/examples-ui@1.0.5(next@13.2.4(@babel/core@7.21.4)(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
       '@swc/helpers': 0.4.14
       clsx: 1.2.1
-      next: 13.2.4(@babel/core@7.21.4)(react-dom@18.2.0)(react@18.2.0)
+      next: 13.2.4(@babel/core@7.21.4)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       sugar-high: 0.4.6
@@ -4907,9 +4938,9 @@ snapshots:
       '@walletconnect/window-metadata': 1.0.0
       detect-browser: 5.2.0
 
-  '@walletconnect/client@1.8.0':
+  '@walletconnect/client@1.8.0(bufferutil@4.0.7)(utf-8-validate@5.0.10)':
     dependencies:
-      '@walletconnect/core': 1.8.0
+      '@walletconnect/core': 1.8.0(bufferutil@4.0.7)(utf-8-validate@5.0.10)
       '@walletconnect/iso-crypto': 1.8.0
       '@walletconnect/types': 1.8.0
       '@walletconnect/utils': 1.8.0
@@ -4917,9 +4948,9 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  '@walletconnect/core@1.8.0':
+  '@walletconnect/core@1.8.0(bufferutil@4.0.7)(utf-8-validate@5.0.10)':
     dependencies:
-      '@walletconnect/socket-transport': 1.8.0
+      '@walletconnect/socket-transport': 1.8.0(bufferutil@4.0.7)(utf-8-validate@5.0.10)
       '@walletconnect/types': 1.8.0
       '@walletconnect/utils': 1.8.0
     transitivePeerDependencies:
@@ -4989,11 +5020,11 @@ snapshots:
 
   '@walletconnect/safe-json@1.0.0': {}
 
-  '@walletconnect/socket-transport@1.8.0':
+  '@walletconnect/socket-transport@1.8.0(bufferutil@4.0.7)(utf-8-validate@5.0.10)':
     dependencies:
       '@walletconnect/types': 1.8.0
       '@walletconnect/utils': 1.8.0
-      ws: 7.5.3
+      ws: 7.5.3(bufferutil@4.0.7)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -5010,14 +5041,14 @@ snapshots:
       js-sha3: 0.8.0
       query-string: 6.13.5
 
-  '@walletconnect/web3-provider@1.8.0(@babel/core@7.21.4)':
+  '@walletconnect/web3-provider@1.8.0(@babel/core@7.21.4)(bufferutil@4.0.7)(utf-8-validate@5.0.10)':
     dependencies:
-      '@walletconnect/client': 1.8.0
+      '@walletconnect/client': 1.8.0(bufferutil@4.0.7)(utf-8-validate@5.0.10)
       '@walletconnect/http-connection': 1.8.0
       '@walletconnect/qrcode-modal': 1.8.0
       '@walletconnect/types': 1.8.0
       '@walletconnect/utils': 1.8.0
-      web3-provider-engine: 16.0.1(@babel/core@7.21.4)
+      web3-provider-engine: 16.0.1(@babel/core@7.21.4)(bufferutil@4.0.7)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
       - '@babel/core'
       - bufferutil
@@ -5045,10 +5076,10 @@ snapshots:
       - '@babel/runtime'
       - '@sentry/types'
 
-  '@web3auth/base-provider@2.1.3(@babel/runtime@7.21.0)':
+  '@web3auth/base-provider@2.1.3(@babel/runtime@7.21.0)(bufferutil@4.0.7)(utf-8-validate@5.0.10)':
     dependencies:
       '@babel/runtime': 7.21.0
-      '@toruslabs/base-controllers': 2.8.0(@babel/runtime@7.21.0)
+      '@toruslabs/base-controllers': 2.8.0(@babel/runtime@7.21.0)(bufferutil@4.0.7)(utf-8-validate@5.0.10)
       '@toruslabs/openlogin-jrpc': 2.13.0(@babel/runtime@7.21.0)
       '@web3auth/base': 2.1.3(@babel/runtime@7.21.0)
       eth-rpc-errors: 4.0.3
@@ -5087,18 +5118,18 @@ snapshots:
     transitivePeerDependencies:
       - '@sentry/types'
 
-  '@web3auth/ethereum-provider@2.1.3(@babel/runtime@7.21.0)':
+  '@web3auth/ethereum-provider@2.1.3(@babel/runtime@7.21.0)(bufferutil@4.0.7)(utf-8-validate@5.0.10)':
     dependencies:
       '@babel/runtime': 7.21.0
       '@ethereumjs/common': 2.6.5
       '@ethereumjs/tx': 3.5.2
       '@metamask/eth-sig-util': 4.0.1
-      '@toruslabs/base-controllers': 2.8.0(@babel/runtime@7.21.0)
+      '@toruslabs/base-controllers': 2.8.0(@babel/runtime@7.21.0)(bufferutil@4.0.7)(utf-8-validate@5.0.10)
       '@toruslabs/http-helpers': 3.3.0(@babel/runtime@7.21.0)
       '@toruslabs/openlogin-jrpc': 2.13.0(@babel/runtime@7.21.0)
       '@walletconnect/types': 1.8.0
       '@web3auth/base': 2.1.3(@babel/runtime@7.21.0)
-      '@web3auth/base-provider': 2.1.3(@babel/runtime@7.21.0)
+      '@web3auth/base-provider': 2.1.3(@babel/runtime@7.21.0)(bufferutil@4.0.7)(utf-8-validate@5.0.10)
       assert: 2.0.0
       bignumber.js: 9.1.1
       eth-rpc-errors: 4.0.3
@@ -5119,15 +5150,15 @@ snapshots:
     transitivePeerDependencies:
       - '@sentry/types'
 
-  '@web3auth/openlogin-adapter@2.1.3(@babel/runtime@7.21.0)':
+  '@web3auth/openlogin-adapter@2.1.3(@babel/runtime@7.21.0)(bufferutil@4.0.7)(utf-8-validate@5.0.10)':
     dependencies:
       '@babel/runtime': 7.21.0
       '@toruslabs/openlogin': 2.13.0(@babel/runtime@7.21.0)
       '@toruslabs/openlogin-ed25519': 2.0.0(@babel/runtime@7.21.0)
       '@web3auth/base': 2.1.3(@babel/runtime@7.21.0)
-      '@web3auth/base-provider': 2.1.3(@babel/runtime@7.21.0)
-      '@web3auth/ethereum-provider': 2.1.3(@babel/runtime@7.21.0)
-      '@web3auth/solana-provider': 2.1.3(@babel/runtime@7.21.0)
+      '@web3auth/base-provider': 2.1.3(@babel/runtime@7.21.0)(bufferutil@4.0.7)(utf-8-validate@5.0.10)
+      '@web3auth/ethereum-provider': 2.1.3(@babel/runtime@7.21.0)(bufferutil@4.0.7)(utf-8-validate@5.0.10)
+      '@web3auth/solana-provider': 2.1.3(@babel/runtime@7.21.0)(bufferutil@4.0.7)(utf-8-validate@5.0.10)
       lodash.merge: 4.6.2
     transitivePeerDependencies:
       - '@sentry/types'
@@ -5136,13 +5167,13 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@web3auth/phantom-adapter@2.1.3(@babel/runtime@7.21.0)':
+  '@web3auth/phantom-adapter@2.1.3(@babel/runtime@7.21.0)(bufferutil@4.0.7)(utf-8-validate@5.0.10)':
     dependencies:
       '@babel/runtime': 7.21.0
       '@web3auth/base': 2.1.3(@babel/runtime@7.21.0)
-      '@web3auth/base-provider': 2.1.3(@babel/runtime@7.21.0)
+      '@web3auth/base-provider': 2.1.3(@babel/runtime@7.21.0)(bufferutil@4.0.7)(utf-8-validate@5.0.10)
       '@web3auth/base-solana-adapter': 2.1.3(@babel/runtime@7.21.0)
-      '@web3auth/solana-provider': 2.1.3(@babel/runtime@7.21.0)
+      '@web3auth/solana-provider': 2.1.3(@babel/runtime@7.21.0)(bufferutil@4.0.7)(utf-8-validate@5.0.10)
       bn.js: 5.2.1
     transitivePeerDependencies:
       - '@sentry/types'
@@ -5151,15 +5182,15 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@web3auth/solana-provider@2.1.3(@babel/runtime@7.21.0)':
+  '@web3auth/solana-provider@2.1.3(@babel/runtime@7.21.0)(bufferutil@4.0.7)(utf-8-validate@5.0.10)':
     dependencies:
       '@babel/runtime': 7.21.0
-      '@solana/web3.js': 1.73.3
-      '@toruslabs/base-controllers': 2.8.0(@babel/runtime@7.21.0)
+      '@solana/web3.js': 1.73.3(bufferutil@4.0.7)(utf-8-validate@5.0.10)
+      '@toruslabs/base-controllers': 2.8.0(@babel/runtime@7.21.0)(bufferutil@4.0.7)(utf-8-validate@5.0.10)
       '@toruslabs/openlogin-jrpc': 2.13.0(@babel/runtime@7.21.0)
       '@toruslabs/tweetnacl-js': 1.0.4
       '@web3auth/base': 2.1.3(@babel/runtime@7.21.0)
-      '@web3auth/base-provider': 2.1.3(@babel/runtime@7.21.0)
+      '@web3auth/base-provider': 2.1.3(@babel/runtime@7.21.0)(bufferutil@4.0.7)(utf-8-validate@5.0.10)
       bn.js: 5.2.1
       bs58: 4.0.1
       eth-rpc-errors: 4.0.3
@@ -5180,14 +5211,14 @@ snapshots:
     transitivePeerDependencies:
       - '@sentry/types'
 
-  '@web3auth/torus-solana-adapter@2.1.3(@babel/runtime@7.21.0)':
+  '@web3auth/torus-solana-adapter@2.1.3(@babel/runtime@7.21.0)(bufferutil@4.0.7)(utf-8-validate@5.0.10)':
     dependencies:
       '@babel/runtime': 7.21.0
-      '@toruslabs/solana-embed': 0.3.4(@babel/runtime@7.21.0)
+      '@toruslabs/solana-embed': 0.3.4(@babel/runtime@7.21.0)(bufferutil@4.0.7)(utf-8-validate@5.0.10)
       '@web3auth/base': 2.1.3(@babel/runtime@7.21.0)
-      '@web3auth/base-provider': 2.1.3(@babel/runtime@7.21.0)
+      '@web3auth/base-provider': 2.1.3(@babel/runtime@7.21.0)(bufferutil@4.0.7)(utf-8-validate@5.0.10)
       '@web3auth/base-solana-adapter': 2.1.3(@babel/runtime@7.21.0)
-      '@web3auth/solana-provider': 2.1.3(@babel/runtime@7.21.0)
+      '@web3auth/solana-provider': 2.1.3(@babel/runtime@7.21.0)(bufferutil@4.0.7)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
       - '@sentry/types'
       - bufferutil
@@ -5212,32 +5243,32 @@ snapshots:
       - '@sentry/types'
       - react-native-svg
 
-  '@web3auth/wallet-connect-v1-adapter@2.1.3(@babel/runtime@7.21.0)':
+  '@web3auth/wallet-connect-v1-adapter@2.1.3(@babel/runtime@7.21.0)(bufferutil@4.0.7)(utf-8-validate@5.0.10)':
     dependencies:
       '@babel/runtime': 7.21.0
-      '@walletconnect/client': 1.8.0
+      '@walletconnect/client': 1.8.0(bufferutil@4.0.7)(utf-8-validate@5.0.10)
       '@walletconnect/types': 1.8.0
       '@web3auth/base': 2.1.3(@babel/runtime@7.21.0)
       '@web3auth/base-evm-adapter': 2.1.3(@babel/runtime@7.21.0)
-      '@web3auth/ethereum-provider': 2.1.3(@babel/runtime@7.21.0)
+      '@web3auth/ethereum-provider': 2.1.3(@babel/runtime@7.21.0)(bufferutil@4.0.7)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
       - '@sentry/types'
       - bufferutil
       - supports-color
       - utf-8-validate
 
-  '@web3auth/web3auth@2.1.3(@babel/runtime@7.21.0)':
+  '@web3auth/web3auth@2.1.3(@babel/runtime@7.21.0)(bufferutil@4.0.7)(utf-8-validate@5.0.10)':
     dependencies:
       '@babel/runtime': 7.21.0
       '@web3auth/base': 2.1.3(@babel/runtime@7.21.0)
       '@web3auth/core': 2.1.3(@babel/runtime@7.21.0)
       '@web3auth/metamask-adapter': 2.1.3(@babel/runtime@7.21.0)
-      '@web3auth/openlogin-adapter': 2.1.3(@babel/runtime@7.21.0)
-      '@web3auth/phantom-adapter': 2.1.3(@babel/runtime@7.21.0)
+      '@web3auth/openlogin-adapter': 2.1.3(@babel/runtime@7.21.0)(bufferutil@4.0.7)(utf-8-validate@5.0.10)
+      '@web3auth/phantom-adapter': 2.1.3(@babel/runtime@7.21.0)(bufferutil@4.0.7)(utf-8-validate@5.0.10)
       '@web3auth/torus-evm-adapter': 2.1.3(@babel/runtime@7.21.0)
-      '@web3auth/torus-solana-adapter': 2.1.3(@babel/runtime@7.21.0)
+      '@web3auth/torus-solana-adapter': 2.1.3(@babel/runtime@7.21.0)(bufferutil@4.0.7)(utf-8-validate@5.0.10)
       '@web3auth/ui': 2.1.3(@babel/runtime@7.21.0)
-      '@web3auth/wallet-connect-v1-adapter': 2.1.3(@babel/runtime@7.21.0)
+      '@web3auth/wallet-connect-v1-adapter': 2.1.3(@babel/runtime@7.21.0)(bufferutil@4.0.7)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
       - '@sentry/types'
       - bufferutil
@@ -5515,9 +5546,9 @@ snapshots:
       balanced-match: 1.0.2
       concat-map: 0.0.1
 
-  braces@3.0.2:
+  braces@3.0.3:
     dependencies:
-      fill-range: 7.0.1
+      fill-range: 7.1.1
 
   brorand@1.1.0: {}
 
@@ -5622,7 +5653,7 @@ snapshots:
   chokidar@3.5.3:
     dependencies:
       anymatch: 3.1.3
-      braces: 3.0.2
+      braces: 3.0.3
       glob-parent: 5.1.2
       is-binary-path: 2.1.0
       is-glob: 4.0.3
@@ -5873,12 +5904,12 @@ snapshots:
     dependencies:
       once: 1.4.0
 
-  engine.io-client@6.4.0:
+  engine.io-client@6.4.0(bufferutil@4.0.7)(utf-8-validate@5.0.10):
     dependencies:
       '@socket.io/component-emitter': 3.1.0
       debug: 4.3.4
       engine.io-parser: 5.0.6
-      ws: 8.11.0
+      ws: 8.11.0(bufferutil@4.0.7)(utf-8-validate@5.0.10)
       xmlhttprequest-ssl: 2.0.0
     transitivePeerDependencies:
       - bufferutil
@@ -5994,11 +6025,12 @@ snapshots:
       '@typescript-eslint/parser': 5.55.0(eslint@8.36.0)(typescript@4.5.5)
       eslint: 8.36.0
       eslint-import-resolver-node: 0.3.7
-      eslint-import-resolver-typescript: 2.7.1(eslint-plugin-import@2.27.5)(eslint@8.36.0)
-      eslint-plugin-import: 2.27.5(@typescript-eslint/parser@5.55.0)(eslint-import-resolver-typescript@2.7.1)(eslint@8.36.0)
+      eslint-import-resolver-typescript: 2.7.1(eslint-plugin-import@2.27.5(eslint@8.36.0))(eslint@8.36.0)
+      eslint-plugin-import: 2.27.5(@typescript-eslint/parser@5.55.0(eslint@8.36.0)(typescript@4.5.5))(eslint-import-resolver-typescript@2.7.1)(eslint@8.36.0)
       eslint-plugin-jsx-a11y: 6.7.1(eslint@8.36.0)
       eslint-plugin-react: 7.32.2(eslint@8.36.0)
       eslint-plugin-react-hooks: 4.6.0(eslint@8.36.0)
+    optionalDependencies:
       typescript: 4.5.5
     transitivePeerDependencies:
       - eslint-import-resolver-webpack
@@ -6012,11 +6044,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-import-resolver-typescript@2.7.1(eslint-plugin-import@2.27.5)(eslint@8.36.0):
+  eslint-import-resolver-typescript@2.7.1(eslint-plugin-import@2.27.5(eslint@8.36.0))(eslint@8.36.0):
     dependencies:
       debug: 4.3.4
       eslint: 8.36.0
-      eslint-plugin-import: 2.27.5(@typescript-eslint/parser@5.55.0)(eslint-import-resolver-typescript@2.7.1)(eslint@8.36.0)
+      eslint-plugin-import: 2.27.5(@typescript-eslint/parser@5.55.0(eslint@8.36.0)(typescript@4.5.5))(eslint-import-resolver-typescript@2.7.1)(eslint@8.36.0)
       glob: 7.2.3
       is-glob: 4.0.3
       resolve: 1.22.1
@@ -6024,19 +6056,19 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-module-utils@2.7.4(@typescript-eslint/parser@5.55.0)(eslint-import-resolver-node@0.3.7)(eslint-import-resolver-typescript@2.7.1)(eslint@8.36.0):
+  eslint-module-utils@2.7.4(@typescript-eslint/parser@5.55.0(eslint@8.36.0)(typescript@4.5.5))(eslint-import-resolver-node@0.3.7)(eslint-import-resolver-typescript@2.7.1(eslint-plugin-import@2.27.5(eslint@8.36.0))(eslint@8.36.0))(eslint@8.36.0):
     dependencies:
-      '@typescript-eslint/parser': 5.55.0(eslint@8.36.0)(typescript@4.5.5)
       debug: 3.2.7
+    optionalDependencies:
+      '@typescript-eslint/parser': 5.55.0(eslint@8.36.0)(typescript@4.5.5)
       eslint: 8.36.0
       eslint-import-resolver-node: 0.3.7
-      eslint-import-resolver-typescript: 2.7.1(eslint-plugin-import@2.27.5)(eslint@8.36.0)
+      eslint-import-resolver-typescript: 2.7.1(eslint-plugin-import@2.27.5(eslint@8.36.0))(eslint@8.36.0)
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-import@2.27.5(@typescript-eslint/parser@5.55.0)(eslint-import-resolver-typescript@2.7.1)(eslint@8.36.0):
+  eslint-plugin-import@2.27.5(@typescript-eslint/parser@5.55.0(eslint@8.36.0)(typescript@4.5.5))(eslint-import-resolver-typescript@2.7.1)(eslint@8.36.0):
     dependencies:
-      '@typescript-eslint/parser': 5.55.0(eslint@8.36.0)(typescript@4.5.5)
       array-includes: 3.1.6
       array.prototype.flat: 1.3.1
       array.prototype.flatmap: 1.3.1
@@ -6044,7 +6076,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 8.36.0
       eslint-import-resolver-node: 0.3.7
-      eslint-module-utils: 2.7.4(@typescript-eslint/parser@5.55.0)(eslint-import-resolver-node@0.3.7)(eslint-import-resolver-typescript@2.7.1)(eslint@8.36.0)
+      eslint-module-utils: 2.7.4(@typescript-eslint/parser@5.55.0(eslint@8.36.0)(typescript@4.5.5))(eslint-import-resolver-node@0.3.7)(eslint-import-resolver-typescript@2.7.1(eslint-plugin-import@2.27.5(eslint@8.36.0))(eslint@8.36.0))(eslint@8.36.0)
       has: 1.0.3
       is-core-module: 2.11.0
       is-glob: 4.0.3
@@ -6053,6 +6085,8 @@ snapshots:
       resolve: 1.22.1
       semver: 6.3.0
       tsconfig-paths: 3.14.2
+    optionalDependencies:
+      '@typescript-eslint/parser': 5.55.0(eslint@8.36.0)(typescript@4.5.5)
     transitivePeerDependencies:
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
@@ -6240,7 +6274,7 @@ snapshots:
 
   eth-sig-util@1.4.2:
     dependencies:
-      ethereumjs-abi: https://codeload.github.com/ethereumjs/ethereumjs-abi/tar.gz/ee3994657fa7a427238e6ba92a84d0b529bbcde0
+      ethereumjs-abi: git+https://git@github.com:ethereumjs/ethereumjs-abi.git#ee3994657fa7a427238e6ba92a84d0b529bbcde0
       ethereumjs-util: 5.2.1
 
   ethereum-bloom-filters@1.0.10:
@@ -6281,7 +6315,7 @@ snapshots:
       bn.js: 4.12.0
       ethereumjs-util: 6.2.1
 
-  ethereumjs-abi@https://codeload.github.com/ethereumjs/ethereumjs-abi/tar.gz/ee3994657fa7a427238e6ba92a84d0b529bbcde0:
+  ethereumjs-abi@git+https://git@github.com:ethereumjs/ethereumjs-abi.git#ee3994657fa7a427238e6ba92a84d0b529bbcde0:
     dependencies:
       bn.js: 4.12.0
       ethereumjs-util: 6.2.1
@@ -6362,7 +6396,7 @@ snapshots:
       rustbn.js: 0.2.0
       safe-buffer: 5.2.1
 
-  ethers@5.6.0:
+  ethers@5.6.0(bufferutil@4.0.7)(utf-8-validate@5.0.10):
     dependencies:
       '@ethersproject/abi': 5.6.0
       '@ethersproject/abstract-provider': 5.6.0
@@ -6382,7 +6416,7 @@ snapshots:
       '@ethersproject/networks': 5.6.0
       '@ethersproject/pbkdf2': 5.6.0
       '@ethersproject/properties': 5.6.0
-      '@ethersproject/providers': 5.6.0
+      '@ethersproject/providers': 5.6.0(bufferutil@4.0.7)(utf-8-validate@5.0.10)
       '@ethersproject/random': 5.6.0
       '@ethersproject/rlp': 5.6.0
       '@ethersproject/sha2': 5.6.0
@@ -6398,7 +6432,7 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  ethers@5.7.2:
+  ethers@5.7.2(bufferutil@4.0.7)(utf-8-validate@5.0.10):
     dependencies:
       '@ethersproject/abi': 5.7.0
       '@ethersproject/abstract-provider': 5.7.0
@@ -6418,7 +6452,7 @@ snapshots:
       '@ethersproject/networks': 5.7.1
       '@ethersproject/pbkdf2': 5.7.0
       '@ethersproject/properties': 5.7.0
-      '@ethersproject/providers': 5.7.2
+      '@ethersproject/providers': 5.7.2(bufferutil@4.0.7)(utf-8-validate@5.0.10)
       '@ethersproject/random': 5.7.0
       '@ethersproject/rlp': 5.7.0
       '@ethersproject/sha2': 5.7.0
@@ -6501,7 +6535,7 @@ snapshots:
 
   file-uri-to-path@1.0.0: {}
 
-  fill-range@7.0.1:
+  fill-range@7.1.1:
     dependencies:
       to-regex-range: 5.0.1
 
@@ -6869,13 +6903,13 @@ snapshots:
 
   isexe@2.0.0: {}
 
-  isomorphic-ws@4.0.1(ws@7.5.9):
+  isomorphic-ws@4.0.1(ws@7.5.9(bufferutil@4.0.7)(utf-8-validate@5.0.10)):
     dependencies:
-      ws: 7.5.9
+      ws: 7.5.9(bufferutil@4.0.7)(utf-8-validate@5.0.10)
 
   isstream@0.1.2: {}
 
-  jayson@3.7.0:
+  jayson@3.7.0(bufferutil@4.0.7)(utf-8-validate@5.0.10):
     dependencies:
       '@types/connect': 3.4.35
       '@types/node': 12.20.55
@@ -6885,11 +6919,11 @@ snapshots:
       delay: 5.0.0
       es6-promisify: 5.0.0
       eyes: 0.1.8
-      isomorphic-ws: 4.0.1(ws@7.5.9)
+      isomorphic-ws: 4.0.1(ws@7.5.9(bufferutil@4.0.7)(utf-8-validate@5.0.10))
       json-stringify-safe: 5.0.1
       lodash: 4.17.21
       uuid: 8.3.2
-      ws: 7.5.9
+      ws: 7.5.9(bufferutil@4.0.7)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -7058,7 +7092,7 @@ snapshots:
 
   magic-sdk@13.6.0:
     dependencies:
-      '@magic-sdk/commons': 9.6.0(@magic-sdk/provider@13.6.0)(@magic-sdk/types@11.6.0)
+      '@magic-sdk/commons': 9.6.0(@magic-sdk/provider@13.6.0(localforage@1.10.0))(@magic-sdk/types@11.6.0)
       '@magic-sdk/provider': 13.6.0(localforage@1.10.0)
       '@magic-sdk/types': 11.6.0
       localforage: 1.10.0
@@ -7095,7 +7129,7 @@ snapshots:
 
   micromatch@4.0.5:
     dependencies:
-      braces: 3.0.2
+      braces: 3.0.3
       picomatch: 2.3.1
 
   mime-db@1.52.0: {}
@@ -7120,13 +7154,13 @@ snapshots:
 
   minimist@1.2.8: {}
 
-  moralis-v1@1.12.0:
+  moralis-v1@1.12.0(bufferutil@4.0.7)(utf-8-validate@5.0.10):
     dependencies:
       '@babel/runtime': 7.16.7
       '@babel/runtime-corejs3': 7.16.8
       '@metamask/detect-provider': 1.2.0
       axios: 0.26.1
-      ethers: 5.6.0
+      ethers: 5.6.0(bufferutil@4.0.7)(utf-8-validate@5.0.10)
       react-native-crypto-js: 1.0.0
       uuid: 8.3.2
       ws: 8.13.0(bufferutil@4.0.7)(utf-8-validate@5.0.10)
@@ -7178,7 +7212,7 @@ snapshots:
 
   next-tick@1.1.0: {}
 
-  next@13.2.4(@babel/core@7.21.4)(react-dom@18.2.0)(react@18.2.0):
+  next@13.2.4(@babel/core@7.21.4)(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
     dependencies:
       '@next/env': 13.2.4
       '@swc/helpers': 0.4.14
@@ -7221,7 +7255,7 @@ snapshots:
 
   normalize-range@0.1.2: {}
 
-  nsfwjs@2.4.2(@tensorflow/tfjs@3.21.0):
+  nsfwjs@2.4.2(@tensorflow/tfjs@3.21.0(seedrandom@3.0.5)):
     dependencies:
       '@nsfw-filter/gif-frames': 1.0.2
       '@tensorflow/tfjs': 3.21.0(seedrandom@3.0.5)
@@ -7385,8 +7419,9 @@ snapshots:
   postcss-load-config@3.1.4(postcss@8.4.21):
     dependencies:
       lilconfig: 2.1.0
-      postcss: 8.4.21
       yaml: 1.10.2
+    optionalDependencies:
+      postcss: 8.4.21
 
   postcss-nested@6.0.0(postcss@8.4.21):
     dependencies:
@@ -7500,11 +7535,11 @@ snapshots:
       react: 18.2.0
       rfdc: 1.3.0
 
-  react-moralis@1.4.2(moralis-v1@1.12.0)(react-dom@18.2.0)(react@18.2.0):
+  react-moralis@1.4.2(moralis-v1@1.12.0(bufferutil@4.0.7)(utf-8-validate@5.0.10))(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
     dependencies:
       fast-deep-equal: 3.1.3
       immer: 9.0.19
-      moralis-v1: 1.12.0
+      moralis-v1: 1.12.0(bufferutil@4.0.7)(utf-8-validate@5.0.10)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       use-immer: 0.6.0(immer@9.0.19)(react@18.2.0)
@@ -7726,11 +7761,11 @@ snapshots:
 
   slash@3.0.0: {}
 
-  socket.io-client@4.6.1:
+  socket.io-client@4.6.1(bufferutil@4.0.7)(utf-8-validate@5.0.10):
     dependencies:
       '@socket.io/component-emitter': 3.1.0
       debug: 4.3.4
-      engine.io-client: 6.4.0
+      engine.io-client: 6.4.0(bufferutil@4.0.7)(utf-8-validate@5.0.10)
       socket.io-parser: 4.2.2
     transitivePeerDependencies:
       - bufferutil
@@ -7839,9 +7874,10 @@ snapshots:
 
   styled-jsx@5.1.1(@babel/core@7.21.4)(react@18.2.0):
     dependencies:
-      '@babel/core': 7.21.4
       client-only: 0.0.1
       react: 18.2.0
+    optionalDependencies:
+      '@babel/core': 7.21.4
 
   sugar-high@0.4.6: {}
 
@@ -8096,7 +8132,7 @@ snapshots:
       bn.js: 4.12.0
       web3-utils: 1.5.2
 
-  web3-provider-engine@16.0.1(@babel/core@7.21.4):
+  web3-provider-engine@16.0.1(@babel/core@7.21.4)(bufferutil@4.0.7)(utf-8-validate@5.0.10):
     dependencies:
       async: 2.6.4
       backoff: 2.5.0
@@ -8117,7 +8153,7 @@ snapshots:
       readable-stream: 2.3.8
       request: 2.88.2
       semaphore: 1.1.0
-      ws: 5.2.3
+      ws: 5.2.3(bufferutil@4.0.7)(utf-8-validate@5.0.10)
       xhr: 2.6.0
       xtend: 4.0.2
     transitivePeerDependencies:
@@ -8223,20 +8259,35 @@ snapshots:
 
   wrappy@1.0.2: {}
 
-  ws@5.2.3:
+  ws@5.2.3(bufferutil@4.0.7)(utf-8-validate@5.0.10):
     dependencies:
       async-limiter: 1.0.1
+    optionalDependencies:
+      bufferutil: 4.0.7
+      utf-8-validate: 5.0.10
 
-  ws@7.4.6: {}
+  ws@7.4.6(bufferutil@4.0.7)(utf-8-validate@5.0.10):
+    optionalDependencies:
+      bufferutil: 4.0.7
+      utf-8-validate: 5.0.10
 
-  ws@7.5.3: {}
+  ws@7.5.3(bufferutil@4.0.7)(utf-8-validate@5.0.10):
+    optionalDependencies:
+      bufferutil: 4.0.7
+      utf-8-validate: 5.0.10
 
-  ws@7.5.9: {}
+  ws@7.5.9(bufferutil@4.0.7)(utf-8-validate@5.0.10):
+    optionalDependencies:
+      bufferutil: 4.0.7
+      utf-8-validate: 5.0.10
 
-  ws@8.11.0: {}
+  ws@8.11.0(bufferutil@4.0.7)(utf-8-validate@5.0.10):
+    optionalDependencies:
+      bufferutil: 4.0.7
+      utf-8-validate: 5.0.10
 
   ws@8.13.0(bufferutil@4.0.7)(utf-8-validate@5.0.10):
-    dependencies:
+    optionalDependencies:
       bufferutil: 4.0.7
       utf-8-validate: 5.0.10
 
