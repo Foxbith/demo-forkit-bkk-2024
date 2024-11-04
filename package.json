@@ -1,7 +1,7 @@
 {
-  "name": "mint-nft",
-  "repository": "https://github.com/vercel/examples.git",
-  "license": "MIT",
+  "name": "forkit-bkk-2024",
+  "repository": "https://demo-forkit-bkk-2024.vercel.app",
+  "license": "DFB",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -12,12 +12,9 @@
   "dependencies": {
     "@headlessui/react": "^1.7.13",
     "@heroicons/react": "^1.0.6",
-    "@moralisweb3/next": "^2.27.2",
     "@react-google-maps/api": "^2.20.3",
     "@tensorflow/tfjs": "^3.21.0",
     "@vercel/examples-ui": "^1.0.5",
-    "@walletconnect/web3-provider": "^1.8.0",
-    "@web3auth/web3auth": "^2.1.3",
     "ethers": "^5.7.2",
     "magic-sdk": "^13.6.0",
     "moralis": "^2.27.2",
