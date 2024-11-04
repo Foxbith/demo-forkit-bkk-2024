@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import React, { useEffect, useState } from 'react'
-
 import { Layout, Text, Page, Code, Link, Input, Button } from '@vercel/examples-ui'
 import { MapComponent } from '../components/GoogleMap'
 import Moralis from 'moralis'
