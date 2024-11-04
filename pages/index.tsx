@@ -2,6 +2,8 @@
 import React, { useEffect, useState } from 'react'
 import { Layout, Text, Page, Code, Link, Input, Button } from '@vercel/examples-ui'
 import { MapComponent } from '../components/GoogleMap'
+import { MORALIS_API_KEY } from '../consts'
+
 import Moralis from 'moralis'
 
 
@@ -55,7 +57,7 @@ function Home() {
     try {
       setLoading(true)
       await Moralis.start({
-        apiKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJub25jZSI6ImIyOGE0Nzg5LTRhNDYtNGY3OC05MDMyLTNiMGE2ODEyM2RlOSIsIm9yZ0lkIjoiNDEzNjQ3IiwidXNlcklkIjoiNDI1MDk0IiwidHlwZUlkIjoiNzFlNTcyNzItOWU0ZC00Yzg5LThlZjktMTM2ODNmMzI5NGQ0IiwidHlwZSI6IlBST0pFQ1QiLCJpYXQiOjE3MzAxMDQ0ODEsImV4cCI6NDg4NTg2NDQ4MX0.29RGFAUThaGWPMirRwDln6w0wPAd4o3Dx44lhY2sRUw'
+        apiKey: MORALIS_API_KEY,
       })
     } catch (error) {
       console.log(error)
@@ -165,7 +167,7 @@ function Home() {
           </Button>
         </div>
         <div className="flex gap-2">
-          <div className="flex w-fit h-full bg-gray-600 p-2 rounded text-white">
+          <div className="flex w-fit h-full bg-gray-600 p-2 rounded text-white text-nowrap">
             <Text className="text-nowrap">{chain.name}</Text>
           </div>
           <Input
