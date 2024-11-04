@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react'
 
 import { Layout, Text, Page, Code, Link, Input, Button } from '@vercel/examples-ui'
 import { MapComponent } from '../components/GoogleMap'
-import { MORALIS_API_KEY } from '../consts/data'
 import Moralis from 'moralis'
 
 
@@ -57,7 +56,7 @@ function Home() {
     try {
       setLoading(true)
       await Moralis.start({
-        apiKey: MORALIS_API_KEY
+        apiKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJub25jZSI6ImIyOGE0Nzg5LTRhNDYtNGY3OC05MDMyLTNiMGE2ODEyM2RlOSIsIm9yZ0lkIjoiNDEzNjQ3IiwidXNlcklkIjoiNDI1MDk0IiwidHlwZUlkIjoiNzFlNTcyNzItOWU0ZC00Yzg5LThlZjktMTM2ODNmMzI5NGQ0IiwidHlwZSI6IlBST0pFQ1QiLCJpYXQiOjE3MzAxMDQ0ODEsImV4cCI6NDg4NTg2NDQ4MX0.29RGFAUThaGWPMirRwDln6w0wPAd4o3Dx44lhY2sRUw'
       })
     } catch (error) {
       console.log(error)
