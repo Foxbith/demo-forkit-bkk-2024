@@ -100,8 +100,6 @@ function Home() {
     handleStartMoralis()
   }, [])
 
-  console.log('process.env.NEXT_PUBLIC_GOOGLE_MAP_API', process.env.NEXT_PUBLIC_GOOGLE_MAP_API)
-
   return (
     <Page>
       <section className="flex flex-col gap-6">
@@ -110,21 +108,19 @@ function Home() {
           Select a blockchain and enter your public wallet address to see the current native & ERC20 token balances of your cryptocurrency!
         </Text>
       </section>
-      {process.env.NEXT_PUBLIC_GOOGLE_MAP_API && (
-        <div className="flex flex-col gap-2 pt-2">
-          <Button
-            onClick={() => {
-              setShowMap((prev) => !prev)
-            }}
-            className="w-full border-none bg-gray-300 hover:bg-gray-500"
-          >
-            {showMap ? 'Hide' : 'Show'} Map
-          </Button>
-          {showMap && (
-            <MapComponent />
-          )}
-        </div>
-      )}
+      <div className="flex flex-col gap-2 pt-2">
+        <Button
+          onClick={() => {
+            setShowMap((prev) => !prev)
+          }}
+          className="w-full border-none bg-gray-300 hover:bg-gray-500"
+        >
+          {showMap ? 'Hide' : 'Show'} Map
+        </Button>
+        {showMap && (
+          <MapComponent />
+        )}
+      </div>
 
       <hr className="border-t border-accents-2 my-6" />
 
