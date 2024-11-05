@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import { Layout, Text, Page, Code, Link, Input, Button } from '@vercel/examples-ui'
 import { MapComponent } from '../components/GoogleMap'
-import { process } from '../consts'
+import { process as myProcess } from '../consts'
 
 import Moralis from 'moralis'
 
@@ -57,7 +57,7 @@ function Home() {
     try {
       setLoading(true)
       await Moralis.start({
-        apiKey: process.env.MORALIS_API_KEY,
+        apiKey: myProcess.env.MORALIS_API_KEY,
       })
     } catch (error) {
       console.log(error)
@@ -108,19 +108,21 @@ function Home() {
           Select a blockchain and enter your public wallet address to see the current native & ERC20 token balances of your cryptocurrency!
         </Text>
       </section>
-      <div className="flex flex-col gap-2 pt-2">
-        <Button
-          onClick={() => {
-            setShowMap((prev) => !prev)
-          }}
-          className="w-full border-none bg-gray-300 hover:bg-gray-500"
-        >
-          {showMap ? 'Hide' : 'Show'} Map
-        </Button>
-        {showMap && (
-          <MapComponent />
-        )}
-      </div>
+      {process.env.NEXT_PUBLIC_GOOGLE_MAP_API && (
+        <div className="flex flex-col gap-2 pt-2">
+          <Button
+            onClick={() => {
+              setShowMap((prev) => !prev)
+            }}
+            className="w-full border-none bg-gray-300 hover:bg-gray-500"
+          >
+            {showMap ? 'Hide' : 'Show'} Map
+          </Button>
+          {showMap && (
+            <MapComponent />
+          )}
+        </div>
+      )}
 
       <hr className="border-t border-accents-2 my-6" />
 
