@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import { Layout, Text, Page, Code, Link, Input, Button } from '@vercel/examples-ui'
 import { MapComponent } from '../components/GoogleMap'
-import { process } from '../consts'
+import { process as myProcess } from '../consts'
 
 import Moralis from 'moralis'
 
@@ -57,7 +57,7 @@ function Home() {
     try {
       setLoading(true)
       await Moralis.start({
-        apiKey: process.env.MORALIS_API_KEY,
+        apiKey: myProcess.env.MORALIS_API_KEY,
       })
     } catch (error) {
       console.log(error)
