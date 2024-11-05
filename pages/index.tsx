@@ -100,6 +100,8 @@ function Home() {
     handleStartMoralis()
   }, [])
 
+  console.log('process.env.NEXT_PUBLIC_GOOGLE_MAP_API', process.env.NEXT_PUBLIC_GOOGLE_MAP_API)
+
   return (
     <Page>
       <section className="flex flex-col gap-6">
