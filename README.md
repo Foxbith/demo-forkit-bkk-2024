@@ -32,7 +32,7 @@ pnpm install
 ### Install Doppler
 
 Ensure Doppler is installed on your system for secure management of environment variables:
-1. Install Doppler: Follow the official installation guide [here](https://docs.doppler.com/docs/install-cli) or use the following command for a quick install for macOS:
+Install Doppler: Follow the official installation guide [here](https://docs.doppler.com/docs/install-cli) or use the following command for a quick install for macOS:
 ```bash
 # Prerequisite. gnupg is required for binary signature verification
 brew install gnupg
@@ -40,13 +40,29 @@ brew install gnupg
 # Next, install using brew (use `doppler update` for subsequent updates)
 brew install dopplerhq/cli/doppler
 ```
-2. Authenticate with Doppler:
 
-Method 1 (for use that has permission to access doppler workspace)
+### Authenticate with Doppler
+
+#### Method 1 (for user that has permission to access doppler workspace)
 ```bash
 doppler login
 ```
-Method 2 (for user that has only access token)
+when finish login, setup doppler project by
+```bash
+doppler setup
+```
+if it error for fetch projects that show
+```bash
+Unable to fetch projects
+Doppler Error: Invalid Auth token
+```
+reset doppler by delete all local CLI configuration and auth tokens with
+```bash
+doppler configure reset 
+```
+than `doppler login` again
+
+#### Method 2 (for user that has only access token)
 ```bash
 # For access to specific environment permission
 export DOPPLER_TOKEN=your-doppler-service-token
